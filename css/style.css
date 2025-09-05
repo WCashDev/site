@@ -1,0 +1,20 @@
+/* gradient and large text CSS */
+:root {
+    --bg1: #a18cd1;
+    --bg2: #fbc2eb;
+    --card: #fff;
+    --ink: #1f1147;
+    --accent: #7c4dff
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(135deg, var(--bg1), var(--bg2));
+    font-size: 18px
+}
+
+h1,
+h2,
+h3 {
+    text-align: center
+}
